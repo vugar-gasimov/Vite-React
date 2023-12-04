@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: Inter, sans-serif;
+  background-color: #282d35;
 }
 nav {
   display: flex;
@@ -35,4 +36,34 @@ nav > img {
   color: #deebf8;
   font-weight: 600;
   font-size: 16px;
+}
+
+main {
+  background-color: #282d35;
+  padding: 57px 27px;
+  color: white;
+  background-image: url(./assets/large-react.svg);
+  background-repeat: no-repeat;
+  background-position: right 70%;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main--list {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--list > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main--list > li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
 }
